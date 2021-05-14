@@ -1,12 +1,13 @@
-package TestCaseFolder;
+package ModernTester;
 
+import TestBaseFolder.TestBase;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import java.util.List;
 
-public class FeaturedPriceTest extends TestBase{
+public class FeaturedPriceTest extends TestBase {
 
     @Test
     @DisplayName("Get the prices of the home featured product | assignment One")
